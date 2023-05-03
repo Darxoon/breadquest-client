@@ -1,5 +1,18 @@
 // inject into Bread Quest
 
+// index for block ids
+const blockIds = {
+    red: 129,
+    orange: 130,
+    yellow: 131,
+    green: 132,
+    teal: 133,
+    blue: 134,
+    purple: 135,
+    grey: 136,
+    gray: 136,
+}
+
 // doubles walking speed
 Player.prototype.walk = function(direction) {
     if (this.walkDelay > 0) {
